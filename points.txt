@@ -1,0 +1,10 @@
+AHA
+1. My dev env can actually be shipped to customer
+2. Kitematic - Web Preview
+
+OOPS
+1. 'cd' doesnt work as expected
+2. EXPOSE is just for documentation
+3. Change env variables in prod while running using -e
+4. COPY source cannot be outside the directory where DOCKERFILE exists (.. does not work) >> Files in docker may not match your local source directory
+

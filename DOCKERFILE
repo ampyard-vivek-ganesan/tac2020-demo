@@ -1,0 +1,31 @@
+# our base image
+FROM node:10-alpine
+
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+
+WORKDIR /home/node/app
+
+COPY src/package.json ./
+
+USER node
+
+RUN npm install
+
+COPY --chown=node:node src .
+
+EXPOSE 8080
+
+ENV environment dev
+
+#Option 1
+RUN /home/node/app/prepare.sh
+
+#Option 2
+RUN cd /home/node/app && ./prepare.sh
+
+CMD [ "node", "app.js" ]
+
+
+
+
+
