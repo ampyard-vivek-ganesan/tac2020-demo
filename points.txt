@@ -1,24 +1,24 @@
-Intro to topic & speaker - 3
+Intro to topic & speaker - 3 - V&K
 
-What is Technical Agility? - 3
+What is Technical Agility? - 3 - V
 
-Containerization
+Containerization  - K
   - What is not a container?-2
   - What is a container?-2
 
-Context of FaceQuest - 3
+Context of FaceQuest - 3 - V
   
-AHA
+AHA - K
 1. Why FaceQuest needed containers? - Fargate spot - How much cost we save? - 4
 2. My dev env can actually be shipped to customer - 3
 3. Kitematic - Web Preview - 1
 
-OOPS
+OOPS - V
 1. 'cd' doesnt work as expected- 3
 2. EXPOSE is just for documentation - 3
 3. Change env variables in prod while running using -e - 3
 4. COPY source cannot be outside the directory where DOCKERFILE exists (.. does not work) >> Files in docker may not match your local source directory - 3
 
-Summary - 3
+Summary - 3 - K&V
 
 
